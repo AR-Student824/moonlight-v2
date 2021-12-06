@@ -36,10 +36,12 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
     <script>
+        document.querySelectorAll('button')[0].onmouseover = function() {
         window.confetti({
             disableForReducedMotion: true,
-            
+
         })
+        }
     </script>
     <script src="https://underdot.vercel.app/underdot.js" type="text/javascript"></script>
     <script>
